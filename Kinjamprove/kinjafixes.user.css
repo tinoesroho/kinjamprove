@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Kinja Fixes by 19b4
 @namespace kinja-fixes-by-19b4
-@version 0.1.1
+@version 0.1.2
 @preprocessor stylus
 @include avclub.com
 @include clickhole.com
@@ -280,7 +280,11 @@ section.js_discussion-region article[depth="3"] {
 section.js_discussion-region article[depth="4"] {
     margin-left: 192px !important;
 }
-slideshow-inset js_slideshow align--bleed, kinja-slide__image {
-max-width: 500px;
+.kinja-slide__inner {
+max-width: 80vw !important;
+}
+
+.slideshow-inset{
+max-width: 60vw !important;    
 }
 }
