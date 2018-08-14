@@ -259,3 +259,7 @@ section.js_discussion-region article[depth="3"] {
 section.js_discussion-region article[depth="4"] {
     margin-left: 192px !important;
 }
+
+slideshow-inset js_slideshow align--bleed, kinja-slide__image {
+max-width: 500px;
+}
