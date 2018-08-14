@@ -260,6 +260,10 @@ section.js_discussion-region article[depth="4"] {
     margin-left: 192px !important;
 }
 
-slideshow-inset js_slideshow align--bleed, kinja-slide__image {
-max-width: 500px;
+.kinja-slide__inner {
+max-width: 80vw !important;
+}
+
+.slideshow-inset{
+max-width: 60vw !important;    
 }
