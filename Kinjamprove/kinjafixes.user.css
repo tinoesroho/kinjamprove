@@ -287,4 +287,13 @@ max-width: 80vw !important;
 .slideshow-inset{
 max-width: 60vw !important;    
 }
+
+.pe_newlayout .page,.global-nav--permalink .topnav__logostrip,.global-nav--scrollback .topnav__logostrip,.topnav__logostrip.topnav__logostrip--enhanced, .networknav__hovernav-wrapper .networknav__hovernav-inner,.hovernav__post-list, .curation-container .curation__inner,.curation-tool-container .curation__inner,  {
+ max-width: 100vw;
+}
+
+.reply__header .post-dropdown-ct {
+position: relative;
+top: -20px;
+}
 }
